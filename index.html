@@ -1,10 +1,19 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Scoutr</title>
+    <meta charset="UTF-8">
+    <title>Scoutr – AI Job Match</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to Scoutr</h1>
-  <p>AI Job Match Assistant Coming Soon</p>
+    <div class="container">
+        <h1>Scoutr</h1>
+        <p class="tagline">Find your perfect job – fast, simple, and smart.</p>
+        <input type="text" id="jobInput" placeholder="Type your ideal job...">
+        <button onclick="searchJobs()">Find Jobs</button>
+        <div id="results"></div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
