@@ -17,7 +17,7 @@ body {
     border-radius: 16px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: 90%;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 h1 {
@@ -56,4 +56,29 @@ button:hover {
 #results {
     margin-top: 20px;
     text-align: left;
+}
+
+.job-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.job-card h4 {
+    margin: 0 0 5px;
+    color: #2a5d84;
+}
+
+.job-card p {
+    margin: 2px 0;
+}
+
+.job-card a {
+    display: inline-block;
+    margin-top: 5px;
+    color: #2a5d84;
+    font-weight: bold;
+    text-decoration: none;
 }
